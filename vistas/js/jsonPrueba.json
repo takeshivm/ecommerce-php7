@@ -1,0 +1,77 @@
+{
+	"duplicated": false,
+	"object": "charge",
+	"id": "chr_test_KJpC7QaOMExtIJLk",
+	"creation_date": 1576910335000,
+	"amount": 15843,
+	"amount_refunded": 0,
+	"current_amount": 15843,
+	"installments": 1,
+	"installments_amount": 15843,
+	"currency_code": "PEN",
+	"email": "ddd@gmail.com",
+	"description": "Venta en modo Sanbox",
+	"source": {	
+		"object": "token",
+		"id": "tkn_test_vWvR6NwWgGsYOGYi",
+		"type": "card",
+		"creation_date": 1576910330000,
+		"email": "ddd@gmail.com",
+		"card_number": "411111******1111",
+		"last_four": "1111",
+		"active": true,
+		"iin": {
+			"object": "iin",
+			"bin": "411111",
+			"card_brand": "Visa",
+			"card_type": "credito",
+			"card_category": "Cl\u00e1sica",
+			"issuer": {
+				"name": "BBVA",
+				"country": "PERU",
+				"country_code": "PE",
+				"website": null,
+				"phone_number": null
+			},
+			"installments_allowed": [2, 4, 6, 8, 10, 12, 3, 5, 7, 9, 24, 48]
+		},
+		"client": {
+			"ip": "2800:200:f100:58eb:adc2:8647:ad10:bba3",
+			"ip_country": "Peru",
+			"ip_country_code": "PE",
+			"browser": "UNKNOWN",
+			"device_fingerprint": null,
+			"device_type": "Escritorio"
+		},
+		"metadata": {
+			"installments": "1"
+		}
+	},
+	"outcome": {
+		"type": "venta_exitosa",
+		"code": "AUT0000",
+		"merchant_message": "La operaci\u00f3n de venta ha sido autorizada exitosamente",
+		"user_message": "Su compra ha sido exitosa."
+	},
+	"fraud_score": 18,
+	"dispute": false,
+	"capture": true,
+	"reference_code": "qg34BTNQT5",
+	"authorization_code": "RMWDvk",
+	"metadata": {},
+	"total_fee": 746,
+	"fee_details": {
+		"fixed_fee": {},
+		"variable_fee": {
+			"currency_code": "PEN",
+			"commision": 0.0399,
+			"total": 632
+		}
+	},
+	"total_fee_taxes": 114,
+	"transfer_amount": 15097,
+	"paid": false,
+	"statement_descriptor": "CULQI*",
+	"transfer_id": null,
+	"capture_date": 1576910335000
+}
